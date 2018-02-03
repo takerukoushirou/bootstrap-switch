@@ -5,7 +5,7 @@
 
 Turn checkboxes and radio buttons into toggle switches. Created by [Mattia Larentis](http://github.com/nostalgiaz), maintained by [Emanuele Marchi](http://github.com/lostcrew) and [Peter Stein](http://www.bdmdesign.org) with the help of the community.
 
-This fork incorporates some bugfixes and modifications by [Michael Maier](https://github.com/takerukoushirou/) for better support of the intermediate state of checkboxes.
+This fork incorporates some bugfixes and modifications by [Michael Maier](https://github.com/takerukoushirou/) for better support of the indeterminate state of checkboxes.
 
 The following documentation equals the original [Boostrap Switch](https://github.com/Bttstrp/bootstrap-switch) implementation.
 
