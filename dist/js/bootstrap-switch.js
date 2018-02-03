@@ -569,13 +569,13 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         this.$on.on('click.bootstrapSwitch', function (event) {
           event.preventDefault();
           event.stopPropagation();
-          _this6.state(false);
+          _this6.state(_this6.$element.prop('indeterminate'));
           return _this6.$element.trigger('focus.bootstrapSwitch');
         });
         return this.$off.on('click.bootstrapSwitch', function (event) {
           event.preventDefault();
           event.stopPropagation();
-          _this6.state(true);
+          _this6.state(!_this6.$element.prop('indeterminate'));
           return _this6.$element.trigger('focus.bootstrapSwitch');
         });
       }
