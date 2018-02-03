@@ -476,13 +476,13 @@
       this.$on.on('click.bootstrapSwitch', event => {
         event.preventDefault()
         event.stopPropagation()
-        this.state(false)
+        this.state(this.$element.prop('indeterminate'))
         return this.$element.trigger('focus.bootstrapSwitch')
       })
       return this.$off.on('click.bootstrapSwitch', event => {
         event.preventDefault()
         event.stopPropagation()
-        this.state(true)
+        this.state(!this.$element.prop('indeterminate'))
         return this.$element.trigger('focus.bootstrapSwitch')
       })
     }
